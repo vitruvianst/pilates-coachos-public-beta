@@ -1,0 +1,81 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "採用漸進式阻力訓練結合彈力帶，優先改善肌少症與下肢不對稱"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合平衡訓練與足部內在肌強化，預防跌倒並改善姿勢穩定性"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "強化核心穩定與靜態伸展，提升功能性動作品質"
+    }
+  ],
+  "recommended_exercises": [
+    "D3",
+    "D4",
+    "A1",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B6",
+    "C1",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、平衡與下肢動作控制；第5-8週漸進增加阻力與訓練量，強化下肢分側控制並觀察左右差異；第9-12週整合全身功能與步態，提升協調及行走穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D3",
+          "D4"
+        ],
+        "note": "動態暖身循序喚醒全身肌群、提升肌肉溫度與關節活動，並加強下肢控制與本體感，逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B1",
+          "B2",
+          "B3",
+          "B4",
+          "B6",
+          "C1",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "強化核心穩定、平衡與步態控制，建立下肢訓練基礎；針對肌肉量偏低，採漸進式阻力訓練提升肌力與肌肉量，加入下肢分側訓練，強化弱側控制與本體感，改善左右差異及行走穩定性。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "靜態伸展放鬆下肢主要肌群，觀察兩側緊繃差異並維持相近伸展時間與幅度，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估核心穩定與下肢動作控制，觀察訓練適應。第8週：步態評估行走對稱與穩定，掌握行走穩定。第12週：生理組成評估肌肉量與下肢對稱性，追蹤訓練成效。"
+  }
+}

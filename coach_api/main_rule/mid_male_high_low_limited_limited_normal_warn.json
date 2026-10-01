@@ -1,0 +1,81 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡男性肌少症合併高體脂，應優先採用改良式下肢阻力訓練，避免高衝擊動作，並強化踝關節活動度與平衡訓練以預防跌倒"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對上肢不對稱警示，需納入單側訓練與姿勢矯正，同時加強核心抗旋轉穩定"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "結合彈力帶阻力訓練與低衝擊有氧，提升整體功能性動作品質與日常活動能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、膝踝安全活動範圍；第5-8週漸進增加阻力與能量消耗，加入上肢分側控制；第9-12週整合全身功能、步態與協調表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "暖身循序喚醒膝踝周圍肌群、提升關節活動，並加強上肢控制與本體感，配合呼吸逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1"
+        ],
+        "note": "強化核心抗旋轉與足踝活動度，建立軀幹與步態穩定；針對高體脂與低肌肉量，採漸進阻力搭配低衝擊有氧，膝踝受限時調整蹲系與髖系負荷，上肢加入分側推拉改善左右出力差異。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝踝、小腿與上肢緊繃肌群，觀察上肢兩側緊繃差異，配合穩定呼吸並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝踝活動與控制，確認初期適應。第8週：靜態與步態評估姿勢與行走穩定，了解對稱性。第12週：生理組成評估體脂、肌肉量、骨骼肌指標及分側對稱，追蹤階段成效。"
+  }
+}

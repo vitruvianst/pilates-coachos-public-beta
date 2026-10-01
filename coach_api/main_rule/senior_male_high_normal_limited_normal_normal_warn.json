@@ -1,0 +1,81 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對膝關節受限（limited）的高齡男性，優先採用改良版下肢動作與關節活動度訓練，避免高衝擊蹲系動作，搭配靜態伸展緩解僵硬"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對體脂偏高（high BF）但肌肉量正常（normal SMI）的高齡男性，採用中強度有氧結合阻力訓練，減少異位脂肪並維持肌肉量，搭配步態訓練改善行走功能"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "針對上肢不對稱警示（asym_upper: warn）的高齡男性，加入雙側上肢訓練與平衡訓練，改善左右協調性與功能性動作能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、膝部安全活動範圍與動作控制；第5-8週漸進增加阻力，強化上肢分側控制；第9-12週依膝部適應整合全身功能、平衡與協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身提升膝關節活動與全身循環，加強上肢控制與本體感，讓身體循序進入主訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1"
+        ],
+        "note": "針對高體脂與膝受限，避免高衝擊HIIT，採用中強度有氧結合阻力訓練，以改良版蹲系、髖系動作保護膝關節，整合上肢分側、雙側推拉訓練，搭配平衡與功能性動作訓練，改善上肢協調性並降低跌倒風險。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝部與上肢緊繃肌群，觀察上肢兩側緊繃差異，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝關節活動與動作控制，確認初期適應。第8週：靜態姿勢評估上肢對稱與身體對位，確認改善。第12週：生理組成評估體脂與分側對稱，追蹤階段成效。"
+  }
+}

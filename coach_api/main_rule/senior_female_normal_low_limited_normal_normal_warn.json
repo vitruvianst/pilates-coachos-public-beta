@@ -1,0 +1,81 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對低肌肉量(SMI)的老年男性，應優先採用阻力訓練強化全身肌群，特別是下肢，但因膝關節受限須使用改良版動作模式，並搭配彈力帶等低衝擊工具"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "老年族群必須整合關節活動度訓練、平衡訓練、步態訓練與靜態伸展，以預防跌倒風險並改善膝關節功能受限問題"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "訓練計畫應採漸進式負荷，初期著重動作模式學習與關節適應，中期增加阻力強度，後期整合功能性動作，全程監控膝關節反應與上肢對稱性改善"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週著重動作模式學習與關節適應；第5-8週漸進增加阻力訓練負荷，強化上肢分側控制；第9-12週整合全身功能性動作，提升整體肌力與動作協調穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "肌肉量偏低且膝部活動受限，動態暖身提升關節活動，並加強上肢控制與本體感，逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1"
+        ],
+        "note": "針對低肌肉量與膝關節受限，採漸進式阻力與改良式下肢訓練，搭配核心與平衡訓練提升動作穩定；上肢加入分側推拉，改善左右出力差異與整體功能性肌力，並降低跌倒風險。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "靜態伸展特別針對膝關節周圍肌群與上肢緊繃肌群，配合穩定呼吸，助於關節活動度維持，並協助身體恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估膝關節活動與控制，確認初期適應。第8週：靜態姿勢評估關節角度與身體對位，確認改善。第12週：生理組成評估骨骼肌指數與上肢對稱性，追蹤成效。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對老年肌少症與肌力不足，採用漸進式阻力訓練結合功能性動作，優先使用改良版下肢動作模式，避免高衝擊訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "系統性改善膝踝關節活動度，整合主動關節訓練、踝關節伸展與步態優化"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "強化平衡控制與核心穩定，預防衰弱進展並改善上肢不對稱"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "E3",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、姿勢控制與膝踝可接受活動範圍；第5-8週漸進增加阻力，加入上肢分側訓練並觀察左右表現；第9-12週整合全身功能動作，提升肌力與動態協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身喚醒關節肌肉，擴大關節活動度，優化上肢本體感覺，為阻力訓練建立基礎。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1",
+          "E3"
+        ],
+        "note": "強化核心抗伸展、抗旋轉與踝關節阻力訓練，穩定軀幹並支持單側動作執行；針對肌肉量低與膝踝受限，阻力訓練以改良式蹲系動作並強化髖主導動作模式，強化平衡訓練預防跌倒，穿插上肢單側訓練改善差異。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝踝、小腿與上肢緊繃肌群，觀察上肢兩側緊繃差異，配合穩定呼吸並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝踝活動度與動作控制，確認初步適應。第8週：靜態與步態評估體態與行走穩定，掌握對稱改善。第12週：生理組成評估肌肉量與對稱性，追蹤階段成效。"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "採用改良式阻力訓練強化下肢與全身主要肌群，優先選擇低衝擊、關節友善的動作模式，避免高強度間歇訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "結合彈力帶訓練與低衝擊有氧運動，促進粒線體功能與整體代謝健康"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "納入靜態伸展與肌筋膜放鬆，改善膝關節活動度受限問題，並優化恢復品質"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 55,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週加強關節活動度、核心與平衡控制；第5-8週於可控範圍內漸進增加阻力，強化肌力；第9-12週穩定維持並強化功能性動作整合。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 10,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "動態暖身循序啟動肌群、提升膝關節活動範圍，強化本體感，逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 35,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1"
+        ],
+        "note": "針對肌肉量低與膝受限，避免高衝擊動作並加強關節活動度訓練，採用改良版下肢訓練搭配上肢推拉，提升整體功能性肌力，並納入核心、平衡訓練，對跌倒預防至關重要。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展膝部周圍緊繃肌群，配合穩定呼吸，維持可接受活動度並協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝部活動度與動作表現，觀察訓練適應。第8週：靜態姿勢評估關節角度與對位，掌握身體控制。第12週：生理組成評估肌肉量，追蹤訓練成效。"
+  }
+}

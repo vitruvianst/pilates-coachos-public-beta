@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "coachos-508201"
+  },
+  "targets": {
+    "coachos-508201": {
+      "hosting": {
+        "coach": [
+          "coachos-coach-508201"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡肥胖者需優先改善關節活動度與平衡能力，並採用改良版下肢訓練以保護膝關節"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對下肢不對稱警示，應整合單側訓練與髖系動作強化"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "結合中強度有氧與阻力訓練以改善體組成，並加強靜態伸展促進恢復"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D4",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "C1",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、膝部安全活動範圍與平衡；第5-8週漸進增加阻力，強化下肢分側控制與左右承重；第9-12週整合全身功能與步態，提升行走穩定與協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D4"
+        ],
+        "note": "暖身喚醒膝關節周圍肌群、帶動全身循環，逐步增加膝部活動，並加強下肢控制與本體感。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "C1",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "加強核心、膝關節活動度，提升軀幹穩定性；針對高體脂與膝受限，避免標準深蹲動作，實施低衝擊有氧結合阻力訓練，以改良式蹲系與髖系動作減少膝關節壓力，強化股四頭肌，整合單側訓練改善不對稱。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝部與下肢緊繃肌群，觀察下肢兩側緊繃差異，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝關節活動度，確認初期適應。第8週：步態評估對稱性與行走穩定，確認改善。第12週：生理組成與功能性體測評估體脂、下肢肌肉對稱及功能表現，追蹤成效。"
+  }
+}

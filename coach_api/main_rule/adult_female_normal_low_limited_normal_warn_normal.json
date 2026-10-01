@@ -1,0 +1,79 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對低骨骼肌指數與下肢不對稱，優先採用漸進式阻力訓練與單側訓練，但須避免傳統深蹲動作，改用改良版蹲系動作以保護膝關節"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "強化關節活動度、平衡訓練與步態訓練，降低跌倒風險並改善膝關節功能"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "結合低衝擊有氧與核心穩定訓練，提升整體功能性表現並支持下肢肌力訓練"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D4",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "C1",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週加強關節活動度、核心穩定；第5-8週漸進增加阻力，強化左右分側控制與平衡考驗；第9-12週維持肌力負荷，整合功能動作提升動態協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D4"
+        ],
+        "note": "暖身喚醒膝關節周圍肌群、帶動全身循環，逐步增加膝部活動，並加強下肢控制與本體感。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "C1",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "加強核心、膝關節活動度，提升軀幹穩定性；針對肌肉量低與膝受限，採漸進阻力與分側訓練，強化較弱側控制，並整合平衡訓練降低跌倒風險，搭配上肢推拉訓練維持全面性功能肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝部與下肢緊繃肌群，觀察下肢兩側緊繃差異，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估膝關節活動與控制，確認初期適應。第8週：步態評估左右對稱與行走穩定，確認改善。第12週：生理組成與功能性體測評估肌肉量、膝部活動及下肢功能，追蹤階段成效。"
+  }
+}

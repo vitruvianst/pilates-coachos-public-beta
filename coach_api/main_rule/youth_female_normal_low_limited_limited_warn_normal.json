@@ -1,0 +1,79 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "漸進式阻力訓練優先，搭配改良版動作模式以符合關節受限與肌力不對稱情境"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "強化踝關節活動度與步態功能，並整合平衡訓練於每次課程"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "針對下肢不對稱進行單側訓練與矯正性介入，優先處理較弱側"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D4",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "C1",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立膝踝的活動範圍與身體的控制感；第5-8週漸進增加阻力，提升肌力與雙腿協調，讓步伐更加穩定；第9-12週在動作品質站穩腳步後，整合全身性的協調訓練，讓日常行走愈來愈自信。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D4"
+        ],
+        "note": "動態暖身喚醒膝踝周圍與下肢肌群，提升關節活動，並加強下肢控制與本體感，讓身體逐步適應訓練節奏。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "C1",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "考量膝踝受限與下肢不對稱，加強核心、足踝訓練，提升軀幹穩定性與關節活動度；針對低肌肉量，採漸進阻力與分側訓練，強化髖外展與較弱側控制，並加入平衡訓練降低跌倒風險。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝踝、小腿與下肢緊繃肌群，觀察下肢兩側緊繃差異，配合穩定呼吸並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝踝活動度與動作控制，了解訓練適應。第8週：步態評估對稱與行走穩定，掌握穩定性。第12週：生理組成評估肌肉量與下肢對稱，追蹤階段成效。"
+  }
+}

@@ -1,0 +1,1868 @@
+{
+  "schema_version": 1,
+  "purpose": "Stable mapping from CoachOS Muscle No. to CorosLink muscular_lite.glb structures.",
+  "model": {
+    "filename": "muscular_lite.glb",
+    "skeletal_filename": "skeletal_lite.glb",
+    "source": "CorosLink derivative of Z-Anatomy",
+    "asset_license": "CC BY-SA 4.0",
+    "stable_key": "structure_id + side",
+    "note": "The source muscle GLB contains right-side muscles. Left-side structures are mirrored at runtime."
+  },
+  "source_2d_mapping": {
+    "filename": "muscle_mapping.json",
+    "mask": "body_muscle_mask.png"
+  },
+  "generated_at": "2026-09-19T13:43:52.824Z",
+  "mappings": {
+    "3": {
+      "muscle_code": 3,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "soleus",
+          "side": "right",
+          "mesh_names": [
+            "Soleus_muscle001",
+            "Soleus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:27:40.531Z"
+    },
+    "4": {
+      "muscle_code": 4,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "soleus",
+          "side": "left",
+          "mesh_names": [
+            "Soleus_muscle001",
+            "Soleus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:27:41.273Z"
+    },
+    "5": {
+      "muscle_code": 5,
+      "groups": [
+        "Front Calf Muscles"
+      ],
+      "structures": [],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:28:06.731Z"
+    },
+    "6": {
+      "muscle_code": 6,
+      "groups": [
+        "Front Calf Muscles"
+      ],
+      "structures": [],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:28:11.561Z"
+    },
+    "12": {
+      "muscle_code": 12,
+      "groups": [
+        "Front Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "tibialis_anterior",
+          "side": "left",
+          "mesh_names": [
+            "Tibialis_anterior_muscle001",
+            "Tibialis_anterior_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:12:30.319Z"
+    },
+    "13": {
+      "muscle_code": 13,
+      "groups": [
+        "Front Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "tibialis_anterior",
+          "side": "right",
+          "mesh_names": [
+            "Tibialis_anterior_muscle001",
+            "Tibialis_anterior_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:12:38.153Z"
+    },
+    "14": {
+      "muscle_code": 14,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "tibialis_anterior",
+          "side": "left",
+          "mesh_names": [
+            "Tibialis_anterior_muscle001"
+          ]
+        },
+        {
+          "structure_id": "gastrocnemius",
+          "side": "right",
+          "mesh_names": [
+            "Medial_head_of_gastrocnemius001",
+            "Medial_head_of_gastrocnemius001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:13:48.629Z"
+    },
+    "15": {
+      "muscle_code": 15,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gastrocnemius",
+          "side": "left",
+          "mesh_names": [
+            "Medial_head_of_gastrocnemius001",
+            "Medial_head_of_gastrocnemius001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:13:56.993Z"
+    },
+    "16": {
+      "muscle_code": 16,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gastrocnemius",
+          "side": "right",
+          "mesh_names": [
+            "Lateral_head_of_gastrocnemius001",
+            "Lateral_head_of_gastrocnemius001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:14:25.838Z"
+    },
+    "17": {
+      "muscle_code": 17,
+      "groups": [
+        "Back Calf Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gastrocnemius",
+          "side": "left",
+          "mesh_names": [
+            "Lateral_head_of_gastrocnemius001",
+            "Lateral_head_of_gastrocnemius001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:14:38.299Z"
+    },
+    "18": {
+      "muscle_code": 18,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "plantaris",
+          "side": "left",
+          "mesh_names": [
+            "Plantaris_muscle001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:15:40.430Z"
+    },
+    "19": {
+      "muscle_code": 19,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "plantaris",
+          "side": "right",
+          "mesh_names": [
+            "Plantaris_muscle001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:15:45.814Z"
+    },
+    "22": {
+      "muscle_code": 22,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "semimembranosus",
+          "side": "right",
+          "mesh_names": [
+            "Semimembranosus_muscle001",
+            "Semimembranosus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:25:55.553Z"
+    },
+    "23": {
+      "muscle_code": 23,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "semimembranosus",
+          "side": "left",
+          "mesh_names": [
+            "Semimembranosus_muscle001",
+            "Semimembranosus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:26:40.497Z"
+    },
+    "24": {
+      "muscle_code": 24,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_medialis",
+          "side": "left",
+          "mesh_names": [
+            "Vastus_medialis_muscle001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:21:30.614Z"
+    },
+    "25": {
+      "muscle_code": 25,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_medialis",
+          "side": "right",
+          "mesh_names": [
+            "Vastus_medialis_muscle001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-18T07:21:36.594Z"
+    },
+    "26": {
+      "muscle_code": 26,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "semitendinosus",
+          "side": "right",
+          "mesh_names": [
+            "Semitendinosus_muscle001",
+            "Semitendinosus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T01:55:47.560Z"
+    },
+    "27": {
+      "muscle_code": 27,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "semitendinosus",
+          "side": "left",
+          "mesh_names": [
+            "Semitendinosus_muscle001",
+            "Semitendinosus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T01:55:57.986Z"
+    },
+    "28": {
+      "muscle_code": 28,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_femoris",
+          "side": "right",
+          "mesh_names": [
+            "Long_head_of_biceps_femoris001",
+            "Long_head_of_biceps_femoris001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T01:56:28.172Z"
+    },
+    "29": {
+      "muscle_code": 29,
+      "groups": [
+        "Knee Flexors"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_femoris",
+          "side": "left",
+          "mesh_names": [
+            "Long_head_of_biceps_femoris001",
+            "Long_head_of_biceps_femoris001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T01:56:37.510Z"
+    },
+    "30": {
+      "muscle_code": 30,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "adductor_magnus",
+          "side": "right",
+          "mesh_names": [
+            "Adductor_magnus001",
+            "Adductor_magnus001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:11:01.130Z"
+    },
+    "31": {
+      "muscle_code": 31,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "adductor_magnus",
+          "side": "left",
+          "mesh_names": [
+            "Adductor_magnus001",
+            "Adductor_magnus001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:11:18.130Z"
+    },
+    "32": {
+      "muscle_code": 32,
+      "groups": [
+        "Quadriceps Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_lateralis",
+          "side": "right",
+          "mesh_names": [
+            "Vastus_lateralis_muscle001",
+            "Vastus_lateralis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:06:37.912Z"
+    },
+    "33": {
+      "muscle_code": 33,
+      "groups": [
+        "Quadriceps Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_lateralis",
+          "side": "left",
+          "mesh_names": [
+            "Vastus_lateralis_muscle001",
+            "Vastus_lateralis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:07:02.866Z"
+    },
+    "34": {
+      "muscle_code": 34,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_lateralis",
+          "side": "left",
+          "mesh_names": [
+            "Vastus_lateralis_muscle001",
+            "Vastus_lateralis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:08:15.012Z"
+    },
+    "35": {
+      "muscle_code": 35,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "vastus_lateralis",
+          "side": "right",
+          "mesh_names": [
+            "Vastus_lateralis_muscle001",
+            "Vastus_lateralis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:08:28.727Z"
+    },
+    "36": {
+      "muscle_code": 36,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "gracilis",
+          "side": "right",
+          "mesh_names": [
+            "Gracilis_muscle001",
+            "Gracilis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:12:33.881Z"
+    },
+    "37": {
+      "muscle_code": 37,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "gracilis",
+          "side": "left",
+          "mesh_names": [
+            "Gracilis_muscle001",
+            "Gracilis_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:12:57.016Z"
+    },
+    "41": {
+      "muscle_code": 41,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_femoris",
+          "side": "left",
+          "mesh_names": [
+            "Rectus_femoris_muscle001",
+            "Rectus_femoris_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:13:39.646Z"
+    },
+    "42": {
+      "muscle_code": 42,
+      "groups": [
+        "Knee Extensors"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_femoris",
+          "side": "right",
+          "mesh_names": [
+            "Rectus_femoris_muscle001",
+            "Rectus_femoris_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:13:44.730Z"
+    },
+    "44": {
+      "muscle_code": 44,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "adductor_longus",
+          "side": "left",
+          "mesh_names": [
+            "Adductor_longus001",
+            "Adductor_longus001_1"
+          ]
+        },
+        {
+          "structure_id": "adductor_brevis",
+          "side": "left",
+          "mesh_names": [
+            "Adductor_brevisr001"
+          ]
+        },
+        {
+          "structure_id": "pectineus",
+          "side": "left",
+          "mesh_names": [
+            "Pectineus_muscle001",
+            "Pectineus_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:17:25.146Z"
+    },
+    "45": {
+      "muscle_code": 45,
+      "groups": [
+        "Hamstrings and Adductors"
+      ],
+      "structures": [
+        {
+          "structure_id": "adductor_longus",
+          "side": "right",
+          "mesh_names": [
+            "Adductor_longus001",
+            "Adductor_longus001_1"
+          ]
+        },
+        {
+          "structure_id": "pectineus",
+          "side": "right",
+          "mesh_names": [
+            "Pectineus_muscle001",
+            "Pectineus_muscle001_1"
+          ]
+        },
+        {
+          "structure_id": "adductor_brevis",
+          "side": "right",
+          "mesh_names": [
+            "Adductor_brevisr001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:17:53.448Z"
+    },
+    "47": {
+      "muscle_code": 47,
+      "groups": [
+        "Quadriceps Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "tensor_fasciae_latae",
+          "side": "left",
+          "mesh_names": [
+            "Tensor_fasciae_latae001",
+            "Tensor_fasciae_latae001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:24:34.927Z"
+    },
+    "48": {
+      "muscle_code": 48,
+      "groups": [
+        "Quadriceps Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "tensor_fasciae_latae",
+          "side": "right",
+          "mesh_names": [
+            "Tensor_fasciae_latae001",
+            "Tensor_fasciae_latae001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:24:53.186Z"
+    },
+    "49": {
+      "muscle_code": 49,
+      "groups": [
+        "Gluteal Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gluteus_maximus",
+          "side": "right",
+          "mesh_names": [
+            "Gluteus_maximus_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:26:17.287Z"
+    },
+    "50": {
+      "muscle_code": 50,
+      "groups": [
+        "Gluteal Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gluteus_maximus",
+          "side": "left",
+          "mesh_names": [
+            "Gluteus_maximus_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:26:26.370Z"
+    },
+    "57": {
+      "muscle_code": 57,
+      "groups": [
+        "Gluteal Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gluteus_medius",
+          "side": "right",
+          "mesh_names": [
+            "Gluteus_medius_muscle001",
+            "Gluteus_medius_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:27:57.954Z"
+    },
+    "58": {
+      "muscle_code": 58,
+      "groups": [
+        "Gluteal Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "gluteus_medius",
+          "side": "left",
+          "mesh_names": [
+            "Gluteus_medius_muscle001",
+            "Gluteus_medius_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:28:02.703Z"
+    },
+    "61": {
+      "muscle_code": 61,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:36:51.279Z"
+    },
+    "62": {
+      "muscle_code": 62,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:37:00.734Z"
+    },
+    "63": {
+      "muscle_code": 63,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:10:12.184Z"
+    },
+    "64": {
+      "muscle_code": 64,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:10:21.772Z"
+    },
+    "68": {
+      "muscle_code": 68,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:40:04.130Z"
+    },
+    "69": {
+      "muscle_code": 69,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:40:08.181Z"
+    },
+    "75": {
+      "muscle_code": 75,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:40:21.547Z"
+    },
+    "76": {
+      "muscle_code": 76,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": [
+            "External_abdominal_oblique_muscler001"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:40:24.764Z"
+    },
+    "77": {
+      "muscle_code": 77,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "forearm_extensors",
+          "side": "right",
+          "mesh_names": [
+            "Extensor_carpi_radialis_brevis001",
+            "Extensor_carpi_radialis_brevis001_1",
+            "Extensor_carpi_radialis_longus001",
+            "Extensor_carpi_radialis_longus001_1",
+            "Extensor_digitorum001",
+            "Extensor_digitorum001_1",
+            "Humeral_head_of_extensor_carpi_ulnaris001",
+            "Humeral_head_of_extensor_carpi_ulnaris001_1",
+            "Ulnar_head_of_extensor_carpi_ulnaris001",
+            "Ulnar_head_of_extensor_carpi_ulnaris001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:48:19.018Z"
+    },
+    "78": {
+      "muscle_code": 78,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "forearm_extensors",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:48:42.001Z"
+    },
+    "79": {
+      "muscle_code": 79,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:49:23.493Z"
+    },
+    "80": {
+      "muscle_code": 80,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T02:49:29.237Z"
+    },
+    "82": {
+      "muscle_code": 82,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachialis",
+          "side": "right",
+          "mesh_names": [
+            "Brachialis_muscle001",
+            "Brachialis_muscle001_1"
+          ]
+        },
+        {
+          "structure_id": "pronator_teres",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T13:34:51.218Z"
+    },
+    "83": {
+      "muscle_code": 83,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachialis",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "pronator_teres",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T13:34:37.917Z"
+    },
+    "86": {
+      "muscle_code": 86,
+      "groups": [
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "erector_spinae_lumbar",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:13:57.866Z"
+    },
+    "87": {
+      "muscle_code": 87,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:14:15.484Z"
+    },
+    "88": {
+      "muscle_code": 88,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:14:29.952Z"
+    },
+    "89": {
+      "muscle_code": 89,
+      "groups": [
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "erector_spinae_lumbar",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:14:55.535Z"
+    },
+    "90": {
+      "muscle_code": 90,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachioradialis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:16:49.515Z"
+    },
+    "91": {
+      "muscle_code": 91,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachioradialis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:16:57.115Z"
+    },
+    "92": {
+      "muscle_code": 92,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:17:19.051Z"
+    },
+    "94": {
+      "muscle_code": 94,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:17:22.854Z"
+    },
+    "98": {
+      "muscle_code": 98,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:17:55.389Z"
+    },
+    "99": {
+      "muscle_code": 99,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:17:57.954Z"
+    },
+    "101": {
+      "muscle_code": 101,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:18:00.433Z"
+    },
+    "102": {
+      "muscle_code": 102,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:18:02.667Z"
+    },
+    "103": {
+      "muscle_code": 103,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:19:04.252Z"
+    },
+    "105": {
+      "muscle_code": 105,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:19:07.235Z"
+    },
+    "110": {
+      "muscle_code": 110,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:19:14.839Z"
+    },
+    "111": {
+      "muscle_code": 111,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:19:20.070Z"
+    },
+    "112": {
+      "muscle_code": 112,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:21:08.706Z"
+    },
+    "113": {
+      "muscle_code": 113,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:21:24.322Z"
+    },
+    "114": {
+      "muscle_code": 114,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "rectus_abdominis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:21:26.589Z"
+    },
+    "115": {
+      "muscle_code": 115,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T03:21:56.873Z"
+    },
+    "121": {
+      "muscle_code": 121,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "anconeus",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:44:13.996Z"
+    },
+    "122": {
+      "muscle_code": 122,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "anconeus",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:44:22.452Z"
+    },
+    "123": {
+      "muscle_code": 123,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:29:13.340Z"
+    },
+    "124": {
+      "muscle_code": 124,
+      "groups": [
+        "Abdominal Muscle"
+      ],
+      "structures": [
+        {
+          "structure_id": "external_oblique",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:29:35.937Z"
+    },
+    "127": {
+      "muscle_code": 127,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "right",
+          "mesh_names": [
+            "Lateral_head_of_triceps_brachii001",
+            "Lateral_head_of_triceps_brachii001_1",
+            "Long_head_of_triceps_brachii001",
+            "Long_head_of_triceps_brachii001_1",
+            "Medial_head_of_triceps_brachii001",
+            "Medial_head_of_triceps_brachii001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:33:21.808Z"
+    },
+    "128": {
+      "muscle_code": 128,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:33:34.521Z"
+    },
+    "129": {
+      "muscle_code": 129,
+      "groups": [
+        "Shoulder Muscles",
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "latissimus_dorsi",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:34:13.421Z"
+    },
+    "130": {
+      "muscle_code": 130,
+      "groups": [
+        "Shoulder Muscles",
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "latissimus_dorsi",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:34:16.641Z"
+    },
+    "131": {
+      "muscle_code": 131,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachialis",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:48:09.823Z"
+    },
+    "132": {
+      "muscle_code": 132,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "brachialis",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:48:15.155Z"
+    },
+    "133": {
+      "muscle_code": 133,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:50:43.072Z"
+    },
+    "134": {
+      "muscle_code": 134,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:50:46.568Z"
+    },
+    "135": {
+      "muscle_code": 135,
+      "groups": [
+        "Shoulder Muscles",
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "teres_major",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:51:33.223Z"
+    },
+    "136": {
+      "muscle_code": 136,
+      "groups": [
+        "Shoulder Muscles",
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "teres_major",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:51:36.284Z"
+    },
+    "137": {
+      "muscle_code": 137,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_brachii",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:55:15.939Z"
+    },
+    "138": {
+      "muscle_code": 138,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_brachii",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:55:19.509Z"
+    },
+    "140": {
+      "muscle_code": 140,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_brachii",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:55:48.569Z"
+    },
+    "141": {
+      "muscle_code": 141,
+      "groups": [
+        "Front Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "biceps_brachii",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:55:53.987Z"
+    },
+    "142": {
+      "muscle_code": 142,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:56:30.174Z"
+    },
+    "143": {
+      "muscle_code": 143,
+      "groups": [
+        "Back Arm Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "triceps_brachii",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:56:33.894Z"
+    },
+    "144": {
+      "muscle_code": 144,
+      "groups": [
+        "Chest Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "pectoralis_major",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:57:24.939Z"
+    },
+    "145": {
+      "muscle_code": 145,
+      "groups": [
+        "Chest Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "pectoralis_major",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T05:57:28.255Z"
+    },
+    "146": {
+      "muscle_code": 146,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "teres_minor",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:03:14.893Z"
+    },
+    "147": {
+      "muscle_code": 147,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "teres_minor",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:03:18.926Z"
+    },
+    "148": {
+      "muscle_code": 148,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "deltoid",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:04:39.049Z"
+    },
+    "149": {
+      "muscle_code": 149,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "deltoid",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:04:44.878Z"
+    },
+    "150": {
+      "muscle_code": 150,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "posterior_deltoid",
+          "side": "right",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "infraspinatus",
+          "side": "right",
+          "mesh_names": [
+            "Infraspinatus_muscle001"
+          ]
+        },
+        {
+          "structure_id": "supraspinatus",
+          "side": "right",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "serratus_anterior",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T13:41:34.341Z"
+    },
+    "151": {
+      "muscle_code": 151,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "infraspinatus",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "supraspinatus",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "posterior_deltoid",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "serratus_anterior",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T13:41:47.707Z"
+    },
+    "152": {
+      "muscle_code": 152,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "lower_trapezius",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:19:28.729Z"
+    },
+    "153": {
+      "muscle_code": 153,
+      "groups": [
+        "Shoulder Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "lower_trapezius",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:19:40.170Z"
+    },
+    "159": {
+      "muscle_code": 159,
+      "groups": [
+        "Neck Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "sternocleidomastoid",
+          "side": "left",
+          "mesh_names": [
+            "Sternocleidomastoid_muscle001",
+            "Sternocleidomastoid_muscle001_1"
+          ]
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:23:33.272Z"
+    },
+    "160": {
+      "muscle_code": 160,
+      "groups": [
+        "Neck Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "sternocleidomastoid",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:23:37.489Z"
+    },
+    "162": {
+      "muscle_code": 162,
+      "groups": [
+        "Neck Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "sternocleidomastoid",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:23:45.106Z"
+    },
+    "164": {
+      "muscle_code": 164,
+      "groups": [
+        "Neck Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "sternocleidomastoid",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:23:48.906Z"
+    },
+    "165": {
+      "muscle_code": 165,
+      "groups": [
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "middle_trapezius",
+          "side": "right",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "upper_trapezius",
+          "side": "right",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "lower_trapezius",
+          "side": "right",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:27:04.231Z"
+    },
+    "166": {
+      "muscle_code": 166,
+      "groups": [
+        "Back Muscles"
+      ],
+      "structures": [
+        {
+          "structure_id": "lower_trapezius",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "middle_trapezius",
+          "side": "left",
+          "mesh_names": []
+        },
+        {
+          "structure_id": "upper_trapezius",
+          "side": "left",
+          "mesh_names": []
+        }
+      ],
+      "confirmed": true,
+      "updated_at": "2026-09-19T06:27:20.075Z"
+    }
+  }
+}

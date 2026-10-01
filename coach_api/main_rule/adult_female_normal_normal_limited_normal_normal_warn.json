@@ -1,0 +1,81 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對膝關節受限與上肢不對稱，優先強化關節活動度、平衡訓練與步態訓練，並採用改良版下肢動作模式"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "採用集群組訓練模式於上肢力量訓練，以改善上肢不對稱問題並維持運動表現"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "整合靜態伸展與恢復訓練，支持高齡者神經肌肉控制與疲勞管理"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立膝部安全活動範圍與上肢動作穩定；第5-8週增加阻力訓練負荷並強化上肢分側控制；第9-12週整合全身性阻力訓練提升整體肌力與動作協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身喚醒膝關節周圍與上肢肌群、提升膝部活動，並加強上肢控制與本體感，逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1"
+        ],
+        "note": "針對膝關節受限，避免高衝擊，以改良版下肢動作強化膝、髖、臀肌群，提升關節活動度，並納入平衡訓練加強協調性；整合上肢推拉、分側訓練改善整體功能性肌力、對稱性。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝部與上肢緊繃肌群，觀察上肢兩側緊繃差異，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：功能性動態體測評估膝關節活動度，觀察訓練適應。第8週：靜態姿勢評估上肢體態對稱性，掌握身體控制。第12週：功能性體測與生理組成評估膝部活動、上肢對稱及日常功能，追蹤成效。"
+  }
+}

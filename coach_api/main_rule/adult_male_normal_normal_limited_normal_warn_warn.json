@@ -1,0 +1,85 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對膝關節活動度受限的高齡男性，優先採用改良版下肢動作模式，強化關節活動度訓練與功能性步態訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合平衡訓練與靜態伸展，改善下肢與上肢雙側不對稱警示，並預防跌倒風險"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "採用漸進式阻力訓練維持正常肌肉量與體脂，重點強化下肢髖系與改良版蹲系動作"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D5",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週加強關節活動度、核心與平衡控制；第5-8週逐步增加阻力負荷，改善動作控制與對稱性；第9-12週維持阻力並整合全身功能動作，提升協調與穩定表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D5"
+        ],
+        "note": "動態暖身循序啟動肌群、提升關節活動，幫助身體找到本體感，逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "強化核心與膝關節活動度，提升動作穩定性；針對膝受限，採改良式蹲系與髖系訓練降低膝部負荷，整合下肢分側、平衡訓練與上肢分側推拉，改善上下肢左右差異並維持整體功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝部及上下肢緊繃肌群，觀察兩側緊繃差異並維持相近時間，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝關節活動度，觀察訓練適應。第8週：靜態姿勢與步態評估，掌握對稱性改善。第12週：生理組成評估肌肉量對稱性，追蹤訓練成效。"
+  }
+}

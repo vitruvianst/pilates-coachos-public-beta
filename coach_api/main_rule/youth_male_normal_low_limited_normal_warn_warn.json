@@ -1,0 +1,85 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對老年肌少症患者，優先採用改良版下肢訓練（降低膝關節負荷）與髖主導動作，並整合關節活動度、平衡訓練與步態訓練，以改善肌肉量、功能性與跌倒風險"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合單側訓練與靜態伸展，矯正上下肢不對稱問題，並透過群組組訓練法降低疲勞、提升運動耐受性"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "建立完整上肢推拉訓練與核心抗旋轉能力，搭配動態伸展作為熱身，以維持全身功能性與日常活動能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D5",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、膝部安全活動範圍與動作控制；第5-8週漸進增加阻力，強化上下肢分側控制；第9-12週整合全身功能，提升肌力、協調與穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D5"
+        ],
+        "note": "肌肉量偏低且膝部活動受限，動態暖身提升關節活動，並加強全身控制與本體感，逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "強化核心抗伸展、抗旋轉，提升軀幹穩定；針對低肌肉量與膝受限，採漸進阻力並依活動範圍調整改良式蹲系與髖系訓練，整合下肢分側、平衡與上肢單側推拉，改善上下肢左右差異與功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "靜態伸展膝部及上下肢緊繃肌群，觀察兩側緊繃差異並維持相近時間，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝部活動與動作表現，確認訓練適應。第8週：步態與姿勢評估，掌握對稱改善。第12週：生理組成追蹤骨骼肌指數與肌肉量對稱性成效。"
+  }
+}

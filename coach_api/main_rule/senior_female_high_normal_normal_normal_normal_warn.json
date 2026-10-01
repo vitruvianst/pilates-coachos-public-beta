@@ -1,0 +1,69 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡男性肥胖者應優先執行改良式阻力訓練，強調關節活動度與平衡訓練，避免高衝擊動作"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對上肢不對稱警示，強化單側訓練與上肢推拉動作的平衡發展"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "結合低衝擊有氧與改良式髖主導動作，促進體脂控制與代謝健康"
+    }
+  ],
+  "recommended_exercises": [
+    "D2",
+    "D3",
+    "A2",
+    "B5",
+    "C1",
+    "C2",
+    "F1",
+    "F2"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、全身動作控制與訓練基礎；第5-8週漸進增加阻力與訓練密度，強化上肢分側控制及能量消耗；第9-12週整合全身功能、協調與日常活動能力。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身循序啟動全身肌群、提升關節活動，並加強上肢控制與本體感，讓身體逐步進入主訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A2",
+          "B5",
+          "C1",
+          "C2"
+        ],
+        "note": "強化核心抗伸展與抗旋轉，建立穩定的上肢發力基礎；針對高體脂，採低衝擊有氧搭配全身阻力訓練改善身體組成，上肢加入分側推拉訓練，觀察左右出力與控制差異，提升整體功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2"
+        ],
+        "note": "靜態伸展放鬆上肢與肩臂主要肌群，觀察兩側緊繃差異並維持相近伸展時間，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估核心穩定與上肢動作控制，觀察訓練適應。第8週：靜態姿勢評估姿勢對位，掌握動作控制。第12週：生理組成評估體脂與上肢對稱性，追蹤訓練成效。"
+  }
+}

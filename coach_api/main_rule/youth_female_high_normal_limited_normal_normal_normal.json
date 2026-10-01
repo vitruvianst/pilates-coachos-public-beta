@@ -1,0 +1,71 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡男性伴體脂偏高與膝關節受限，應優先採用改良式下肢訓練與關節活動度訓練，避免高衝擊動作，強化膝穩定性與功能性動作模式"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對體脂偏高但肌肉量正常的高齡男性，應結合中等強度阻力訓練與飲食介入，優先維持肌肉量並改善體組成，預防肌少症進程"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "高齡訓練需強化恢復與柔軟度，每次訓練後必須納入靜態伸展與肌筋膜放鬆，避免過度疲勞累積，維持長期訓練依從性"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、膝部可接受活動範圍與平衡控制；第5-8週漸進增加阻力並搭配低衝擊有氧，提升肌力與能量消耗；第9-12週整合全身功能與步態，提升行走穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "膝關節活動度受限，動態暖身循序提升肌肉溫度，喚醒膝部周圍肌群並增加關節活動，平順進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1"
+        ],
+        "note": "考量體脂高與膝受限，採低負荷式阻力訓練，改善體脂；避免高衝擊有氧與標準深蹲動作，改用髖主導動作減輕膝壓力，加強核心、平衡訓練支持姿勢控制，預防跌倒。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展膝部周圍緊繃肌群，配合穩定呼吸，維持可接受活動度並協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝關節活動度與動作表現，觀察訓練適應。第8週：靜態姿勢評估關節角度與身體對位，掌握身體控制。第12週：生理組成評估體脂變化，追蹤成效。"
+  }
+}

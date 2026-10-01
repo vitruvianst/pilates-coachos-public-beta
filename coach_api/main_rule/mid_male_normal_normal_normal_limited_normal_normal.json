@@ -1,0 +1,73 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先改善踝關節活動度與足底屈肌功能"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "強化足踝肌力與穩定性以改善步態功能"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "整合下肢改良式訓練與漸進式負重"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 55,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、踝關節活動度與動作控制；第5-8週漸進增加足踝與全身阻力負荷，維持肌力；第9-12週整合平衡、步態與全身功能，提升行走穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "動態暖身循序啟動肌群、提升關節活動，幫助身體找到本體感，逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 33,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1",
+          "E3"
+        ],
+        "note": "加強核心與足踝活動度，建立步態與行走穩定性；針對踝受限，採改良式下肢與髖主導訓練減少踝部需求，搭配平衡、步態及上肢推拉訓練，維持整體功能性肌力並降低跌倒風險。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展踝部、小腿與足底周圍緊繃肌群，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估踝關節活動與平衡，確認初期適應。第8週：步態評估行走穩定與效率，確認功能改善。第12週：功能性體測評估踝部活動、平衡、動作控制與行走功能，追蹤階段成效。"
+  }
+}

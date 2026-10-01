@@ -1,0 +1,73 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡肌少性肥胖者應以改良式阻力訓練為核心，優先訓練下肢與全身主要肌群，避免高衝擊動作"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合平衡訓練、關節活動度與步態訓練，預防跌倒風險並改善功能性動作品質"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "納入充分的靜態伸展與恢復訓練，並注意上肢左右對稱性問題"
+    }
+  ],
+  "recommended_exercises": [
+    "D2",
+    "D3",
+    "A1",
+    "B3",
+    "B4",
+    "B5",
+    "C1",
+    "C2",
+    "F1",
+    "F2"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定與上肢分側控制；第5-8週漸進增加阻力與訓練密度，提升肌力及能量消耗；第9-12週整合全身功能與上肢協調，提升體能及日常活動表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D2",
+          "D3"
+        ],
+        "note": "暖身喚醒全身肌群並帶動循環，加強上肢控制與本體感，配合呼吸節奏，讓身體平順進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3",
+          "B4",
+          "B5",
+          "C1",
+          "C2"
+        ],
+        "note": "針對低肌肉量與高體脂，以漸進式阻力訓練搭配依能力調整的有氧訓練，提升肌力並改善身體組成；上肢不對稱採分側推拉訓練，監測左右出力與動作控制差異，逐步提升上肢協調與功能性表現。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2"
+        ],
+        "note": "針對全身主要肌群做靜態伸展並配合深呼吸，兩側動作份量對等收尾，配合穩定呼吸，減少疲勞並幫助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態評估全身動作模式，觀察訓練適應。第8週：靜態姿勢評估左右對稱，掌握身體控制。第12週：生理組成追蹤體脂、骨骼肌指標與上肢肌肉量對稱性成效。"
+  }
+}

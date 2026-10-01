@@ -1,0 +1,73 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先採用改良式下肢與全身性阻力訓練，結合耐力運動，以對抗肌少症並改善肌力與肌肉量"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對上肢不對稱警示，加強單側訓練與雙側協調性訓練，改善握力與上肢功能對稱性"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "整合關節活動度、平衡訓練與步態訓練，搭配靜態伸展與彈力帶訓練，全面提升功能性動作能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D2",
+    "D3",
+    "A1",
+    "B3",
+    "B4",
+    "B5",
+    "C1",
+    "C2",
+    "F1",
+    "F2"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定與動作控制；第5-8週漸進增加阻力與訓練量，強化上肢分側並提升肌力；第9-12週整合全身功能、協調與日常活動表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身循序喚醒全身肌群、提升肌肉溫度與關節活動，並加強上肢控制與本體感，逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3",
+          "B4",
+          "B5",
+          "C1",
+          "C2"
+        ],
+        "note": "強化核心抗伸展與抗旋轉，建立穩定的上肢發力基礎；針對肌肉量偏低，採漸進式全身阻力訓練提升肌力與肌肉量，上肢加入分側推拉訓練，觀察左右出力與控制差異，提升整體功能性表現。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2"
+        ],
+        "note": "靜態伸展放鬆上肢與肩臂主要肌群，觀察兩側緊繃差異並維持相近伸展時間，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估核心穩定與上肢動作控制，觀察訓練適應。第8週：靜態姿勢評估姿勢對位，掌握動作控制。第12週：生理組成評估肌肉量與上肢對稱性，追蹤訓練成效。"
+  }
+}

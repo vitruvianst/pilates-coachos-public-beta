@@ -1,0 +1,71 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對肌少症與高體脂老年男性，採用改良式阻力訓練結合低衝擊有氧，優先強化下肢肌群並避免高衝擊動作"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "膝關節受限者應優先改善關節活動度與下肢柔韌性，搭配漸進式功能性動作訓練"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "多組分訓練結合平衡與步態訓練，提升整體功能性與日常活動能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週加強膝部可接受活動範圍、核心與平衡控制；第5-8週漸進增加阻力與有氧刺激，提升肌力及能量消耗；第9-12週整合全身功能與步態，提升體能與日常活動能力。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "動態暖身循序啟動肌群、提升關節活動範圍，幫助身體逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1"
+        ],
+        "note": "針對高體脂與低肌肉量，優先採用改良式阻力訓練與循環訓練模式，改善身體組成、肌力；以改良式膝髖動作減少膝關節負擔，加強核心、平衡訓練保護膝關節，提升整體功能性表現。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展膝部周圍緊繃肌群，配合穩定呼吸，維持可接受活動度並協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝活動度，觀察訓練適應。第8週：靜態姿勢評估關節角度與身體對位，掌握身體控制。第12週：生理組成評估體脂與肌肉量變化，追蹤訓練成效。"
+  }
+}

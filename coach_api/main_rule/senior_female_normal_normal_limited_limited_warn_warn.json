@@ -1,0 +1,85 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先改善下肢關節活動度與本體感覺，採用改良式蹲系動作取代傳統深蹲"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合步態訓練與功能性動作，改善下肢不對稱與跌倒風險"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "強化靜態伸展與肌筋膜放鬆，促進恢復並維持關節柔軟度"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D5",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 55,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週著重關節活動與核心訓練；第5-8週逐步增加肌力訓練，改善不對稱；第9-12週提升訓練挑戰性，強化全身協調性與步伐穩定性。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D5"
+        ],
+        "note": "動態暖身循序啟動肌群、提升關節活動，幫助身體找到本體感，逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 33,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "加強核心抗伸展、抗旋轉與足踝活動度，提升整體穩定；考量膝踝受限，依活動範圍調整改良式下肢訓練，整合下肢分側、平衡步態與上肢單側推拉，改善上下肢左右差異並維持功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展膝踝周圍與上下肢緊繃肌群，觀察兩側緊繃差異，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝踝活動度，掌握身體控制。第8週：步態與靜態評估行走對稱與身體對位，掌握身體控制。第12週：生理組成評估肌肉量對稱性，追蹤訓練成效。"
+  }
+}

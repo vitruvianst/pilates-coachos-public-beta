@@ -1,0 +1,65 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先採用阻力訓練結合低衝擊有氧，避免高強度間歇訓練，以安全減脂並維持肌肉量"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "強化關節活動度、平衡訓練與步態訓練，預防跌倒並改善功能性動作品質"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "採用漸進式負荷與適度強度，優先改善肌力與肌肉密度，輔助減少肌肉內脂肪堆積"
+    }
+  ],
+  "recommended_exercises": [
+    "D3",
+    "A2",
+    "B3",
+    "B4",
+    "C1",
+    "F2"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、動作控制與阻力訓練基礎；第5-8週增加阻力訓練密度與強度，改善身體組成；第9-12週整合全身功能與循環訓練，強化整體體能。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D3"
+        ],
+        "note": "動態暖身循序啟動肌群、提升關節活動，幫助身體找到本體感，逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A2",
+          "B3",
+          "B4",
+          "C1"
+        ],
+        "note": "針對高體脂的高齡族群，採用低衝擊有氧結合漸進式多元阻力訓練，優先發展肌力與強化日常生活活動能力，並納入核心、平衡與步態訓練可強化軀幹穩定性，並為阻力訓練建立安全基礎。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2"
+        ],
+        "note": "全身主要肌群做溫和靜態伸展，配合深呼吸並逐步放慢節奏，舒緩緊繃，協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估全身動作品質與穩定，確認初期適應。第8週：靜態姿勢評估動作穩定度，掌握中期進展。第12週：生理組成評估體脂變化，追蹤訓練成效。"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對高齡者強化功能性肌力與平衡，採用改良版下肢訓練動作，並整合關節活動度、平衡與步態訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "針對雙側不對稱問題，增加單側訓練與靜態伸展，利用交叉教育效應平衡左右肢體"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "建立漸進式訓練架構，整合蛋白營養與動作矯正期，確保高齡者安全有效提升整體功能"
+    }
+  ],
+  "recommended_exercises": [
+    "D3",
+    "D5",
+    "A1",
+    "B5",
+    "B6",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心、平衡與全身動作控制基礎；第5-8週漸進增加功能性阻力，強化上下肢分側與左右控制；第9-12週整合全身性動作，提升整體協調及日常活動表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D3",
+          "D5"
+        ],
+        "note": "動態暖身循序啟動全身肌群、提升關節活動，並加強全身控制與本體感，讓身體逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B5",
+          "B6",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "強化核心抗伸展、抗旋轉與平衡控制，建立穩定動作基礎；整體以功能性阻力訓練維持肌力，整合上下肢分側訓練與上肢推拉，觀察左右出力及控制差異，提升全身對稱性、協調與日常活動表現。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "靜態伸展放鬆上下肢主要肌群，觀察兩側緊繃差異並維持相近伸展時間與幅度，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估全身動作控制，確認初期適應。第8週：步態與靜態姿勢評估上下肢左右對稱及協調，確認改善。第12週：功能性體測與生理組成評估四肢對稱、全身協調及日常功能，追蹤階段成效。"
+  }
+}

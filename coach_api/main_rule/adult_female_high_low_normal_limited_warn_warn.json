@@ -1,0 +1,85 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先採用改良式下肢肌力訓練，搭配關節活動度與平衡訓練，以因應肌少型肥胖及功能限制"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "建立完整上下肢肌力基礎，並強化核心穩定，以改善不對稱問題"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "結合低衝擊有氧與靜態伸展，促進體脂管理與恢復品質"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D5",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、踝關節活動度與動作模式；第5-8週漸進增加阻力與平衡挑戰，強化上下肢分側控制；第9-12週整合全身功能、步態與日常活動，提升肌力與行走穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D5"
+        ],
+        "note": "動態暖身帶動全身並提升足踝活動，配合呼吸加強上下肢控制與本體感，讓身體逐步進入主訓練。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "加強核心抗伸展、抗旋轉與足踝活動度，提升軀幹穩定；針對低肌肉量與高體脂，採漸進阻力搭配低衝擊有氧，整合下肢分側與平衡步態，上肢加入單側推拉改善左右出力差異，提升整體功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "靜態伸展腳踝與四肢緊繃感，讓呼吸慢慢回穩，幫助柔軟度維持並降低運動後疲勞。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估踝關節活動與動作控制，確認初期適應。第8週：步態與靜態姿勢評估上下肢對稱與協調，確認改善。第12週：生理組成評估體脂、肌肉量與分側對稱，追蹤階段成效。"
+  }
+}

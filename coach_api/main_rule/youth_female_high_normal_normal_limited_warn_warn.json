@@ -1,0 +1,85 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡者衝擊吸收能力下降，需以改良版下肢動作模式取代標準蹲系動作，並強化踝關節活動度與步態訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "採用中等強度多功能訓練結合阻力與有氧循環，改善體脂率與心肺適能，同時納入平衡與靜態伸展"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "針對上下肢不對稱與踝關節受限，增加單側訓練、姿勢矯正與肌筋膜放鬆，改善動作對稱性與關節功能"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "D5",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "E1",
+    "E2",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立踝關節活動度與動作控制；第5-8週漸進增加阻力，強化上下肢分側控制與左右協調；第9-12週整合步態與全身功能，提升整體體能。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3",
+          "D5"
+        ],
+        "note": "動態暖身喚醒足踝與全身肌群、提升踝關節活動，並加強全身控制與本體感，為主訓練做好準備。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "C3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "note": "強化核心抗伸展、抗旋轉與足踝活動度，提升軀幹穩定；針對高體脂與踝受限，採中等強度有氧搭配漸進阻力，整合下肢分側、平衡步態與上肢單側推拉，改善上下肢左右差異並提升功能性表現。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展踝部、小腿及上下肢緊繃肌群，觀察兩側緊繃差異並維持相近時間，配合穩定呼吸協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估踝關節活動與控制，確認初期適應。第8週：步態與動態功能評估上下肢對稱與控制，確認改善。第12週：生理組成評估體脂與上下肢肌肉對稱，追蹤階段成效。"
+  }
+}

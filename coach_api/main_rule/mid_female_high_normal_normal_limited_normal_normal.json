@@ -1,0 +1,73 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "針對高體脂與腳踝活動度受限的高齡男性，優先加強關節活動度訓練、平衡訓練、步態訓練與靜態伸展，並將高強度有氧列為減量項目"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "採用改良版下肢蹲系動作取代標準深蹲，並結合中等強度有氧訓練與阻力訓練，以減少體脂並維持肌肉量"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "強化核心抗旋轉能力與足踝特定訓練，以改善腳踝活動度並提升整體功能性動作品質"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "E3",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、踝部活動範圍與動作控制；第5-8週漸進增加阻力並搭配有氧刺激，維持肌力與增加能量消耗；第9-12週整合平衡、步態與全身功能，提升體能與協調。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "動態暖身喚醒踝關節周邊肌群，提升關節活動度，讓身體逐步進入訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1",
+          "E3"
+        ],
+        "note": "強化核心與足踝活動度，建立步態穩定；針對高體脂與踝受限，採低衝擊有氧搭配全身阻力訓練改善身體組成，依踝部可接受範圍調整改良式下肢訓練，搭配平衡、步態與上肢推拉，維持整體功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展踝部、小腿與足底周圍緊繃肌群，配合穩定呼吸，維持活動度並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估踝關節活動度與控制，確認初期適應。第8週：步態評估行走穩定與效率，確認功能改善。第12週：生理組成與功能性體測評估體脂、踝部活動及行走功能，追蹤階段成效。"
+  }
+}

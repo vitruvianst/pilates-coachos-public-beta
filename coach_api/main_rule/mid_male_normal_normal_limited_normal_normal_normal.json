@@ -1,0 +1,71 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "採用低負荷漸進式阻力訓練改善膝關節功能，避免高衝擊動作"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "結合股四頭肌與腿後肌群強化，搭配關節鬆動技術提升膝關節活動度"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "整合平衡訓練與功能性動作模式，預防跌倒風險並提升日常生活能力"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "E1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定與膝部安全活動範圍；第5-8週漸進增加阻力，強化下肢肌力並維持動作品質；第9-12週整合全身功能、平衡與步態，提升行走穩定與日常能力。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D3"
+        ],
+        "note": "膝關節活動度受限，動態暖身有助提升肌肉溫度、關節活動範圍，為後續訓練做好準備。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "E1"
+        ],
+        "note": "針對膝關節受限，避免高衝擊動作，以改良版下肢動作取代標準深蹲，強化股四頭肌與腿後肌群，並納入核心、平衡能與上肢推拉訓練，建立整體功能性肌力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2",
+          "F3"
+        ],
+        "note": "溫和靜態伸展膝部周圍緊繃肌群，配合穩定呼吸，維持可接受活動度並協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估膝關節活動度，確認初期適應。第8週：靜態姿勢評估身體對位與核心控制，確認改善。步態與功能性體測評估平衡、行走穩定及日常功能，追蹤階段成效。"
+  }
+}

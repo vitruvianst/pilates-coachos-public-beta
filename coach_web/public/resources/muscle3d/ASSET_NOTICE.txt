@@ -1,0 +1,10 @@
+CoachOS 3D Muscle Map assets
+
+muscular_lite.glb / skeletal_lite.glb
+Source metadata from the provided official mapping package:
+CorosLink derivative of Z-Anatomy
+Asset license: CC BY-SA 4.0
+
+muscle_3d_mapping.json
+User-provided, manually confirmed CoachOS mapping.
+Stable mapping key: structure_id + side.

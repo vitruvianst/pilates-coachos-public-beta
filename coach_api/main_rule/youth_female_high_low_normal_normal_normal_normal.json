@@ -1,0 +1,67 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "老年肌少症合併高體脂者應優先採用改良式阻力訓練，強化下肢與全身主要肌群，搭配關節活動度與平衡訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "結合低衝擊有氧與阻力訓練，促進體脂下降與肌肉量提升，避免久坐行為累積中風風險"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "採用漸進式負荷與功能性動作模式，定期評估身體表現與肌肉骨骼健康，確保訓練安全與長期效益"
+    }
+  ],
+  "recommended_exercises": [
+    "D3",
+    "A1",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "F2"
+  ],
+  "avoid_exercises": [
+    "A3"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、動作控制與訓練習慣；第5-8週漸進增加阻力與訓練密度，提升肌力及能量消耗；第9-12週整合全身功能與有氧訓練，提升體能與日常活動能力。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D3"
+        ],
+        "note": "動態熱身喚醒全身肌肉，搭配關節活動提升動作控制與本體感覺，留意心率與呼吸節奏，為進入主訓練做準備。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "note": "針對低肌肉量與高體脂，採用低衝擊有氧促進脂肪代謝，搭配全身阻力訓練（上肢推拉、改良蹲系髖系動作）增加肌肉量，並整合核心與平衡訓練，強化軀幹穩定性、支持動作執行。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2"
+        ],
+        "note": "全身主要肌群做溫和靜態伸展，配合深呼吸並逐步放慢節奏，舒緩緊繃，協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估全身動作品質與穩定，確認初期適應。第8週：生理組成評估體脂變化，確認中期進展。第12週：生理組成評估體脂與肌肉量變化，追蹤階段成效。"
+  }
+}

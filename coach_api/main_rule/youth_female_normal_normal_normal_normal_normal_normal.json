@@ -1,0 +1,65 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "優先採用低衝擊阻力訓練，搭配改良版下肢動作模式，避免高強度間歇訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "整合步態訓練與平衡能力發展，強化下肢功能性動作"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "建立漸進式週期化訓練架構，結合營養支持策略"
+    }
+  ],
+  "recommended_exercises": [
+    "D3",
+    "A1",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "F2"
+  ],
+  "avoid_exercises": [],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立動作品質與核心穩定基礎；第5-8週漸進增加阻力訓練負荷，均衡發展全身肌力；第9-12週整合全身功能性動作，提升動作協調與日常活動表現。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D3"
+        ],
+        "note": "動態暖身循序啟動全身肌群、提升肌肉溫度與關節活動，讓身體平順進入主訓練狀態。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "note": "以核心穩定與全身動作品質作為訓練基礎，採漸進式功能性阻力訓練，均衡安排下肢蹲系、髖系與上肢推拉類型，搭配平衡與步態訓練，維持全身肌力、動作協調與日常活動能力。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F2"
+        ],
+        "note": "針對全身主要肌群做靜態伸展並配合深呼吸，逐步放慢節奏，舒緩緊繃與疲勞，協助運動後恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能評估全身動作品質與核心穩定，確認初期適應。第8週：靜態與動態功能性體測評估姿勢、平衡與動作控制，確認中期進展。第12週：功能性體測與步態評估全身協調、行走穩定，追蹤階段成效。"
+  }
+}

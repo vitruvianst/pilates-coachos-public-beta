@@ -1,0 +1,83 @@
+{
+  "training_principles": [
+    {
+      "principle_id": "P001",
+      "principle": "高齡者高體脂肌間脂肪管理策略：優先採用中等強度有氧與改良式肌力訓練，避免高衝擊動作，強化關節活動度與平衡訓練"
+    },
+    {
+      "principle_id": "P002",
+      "principle": "踝關節活動度受限補償策略：強化腳踝關節活動度訓練，整合步態再教育與姿勢矯正，預防代償性動作模式"
+    },
+    {
+      "principle_id": "P003",
+      "principle": "上肢不對稱矯正策略：納入單側訓練與姿勢矯正動作，搭配肌筋膜放鬆技術，漸進式平衡左右側肌力差異"
+    }
+  ],
+  "recommended_exercises": [
+    "D1",
+    "D2",
+    "D3",
+    "A1",
+    "B3_modified",
+    "B4_modified",
+    "B5",
+    "C1",
+    "C2",
+    "E1",
+    "E3",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "avoid_exercises": [
+    "A3",
+    "B3",
+    "B4"
+  ],
+  "training_plan": {
+    "weekly_structure": {
+      "days_per_week": 3,
+      "session_duration_min": 60,
+      "intensity_level": "low_to_moderate",
+      "progression": "前4週建立核心穩定、踝關節活動度與動作控制；第5-8週漸進增加阻力，強化上肢分側控制與能量消耗；第9-12週整合全身功能與步態穩定。"
+    },
+    "session_template": [
+      {
+        "phase": "warmup",
+        "duration_min": 12,
+        "category_codes": [
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "note": "動態暖身喚醒足踝與上肢肌群、帶動全身循環，提升踝部活動並加強上肢控制與本體感，為主訓練做準備。"
+      },
+      {
+        "phase": "main",
+        "duration_min": 38,
+        "category_codes": [
+          "A1",
+          "B3_modified",
+          "B4_modified",
+          "B5",
+          "C1",
+          "C2",
+          "E1",
+          "E3"
+        ],
+        "note": "加強核心與足踝活動度，建立步態穩定；針對高體脂與踝受限，採依能力調整的有氧搭配漸進阻力訓練，結合平衡與步態控制；上肢加入分側推拉並監測左右出力差異，改善協調與整體功能。"
+      },
+      {
+        "phase": "cooldown",
+        "duration_min": 10,
+        "category_codes": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "note": "溫和伸展踝部、小腿及上肢緊繃肌群，觀察上肢兩側緊繃差異，配合穩定呼吸並協助恢復。"
+      }
+    ],
+    "milestone_note": "第4週：動態功能性評估踝部活動度，觀察初步適應。第8週：靜態姿勢評估角度與身體對位，掌握體態改善。第12週：生理組成評估體脂與上肢肌肉對稱性，追蹤整體訓練成效"
+  }
+}
