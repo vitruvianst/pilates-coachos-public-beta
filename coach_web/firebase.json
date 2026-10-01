@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "coach",
+    "target": "pilates",
     "public": "dist",
     "ignore": [
       "firebase.json",

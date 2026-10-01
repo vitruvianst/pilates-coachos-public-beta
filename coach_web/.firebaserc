@@ -5,10 +5,11 @@
   "targets": {
     "coachos-508201": {
       "hosting": {
-        "coach": [
-          "coachos-coach-508201"
+        "pilates": [
+          "coachos-pilates-508201"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }
