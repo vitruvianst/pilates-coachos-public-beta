@@ -1076,7 +1076,21 @@ export default function CoachDashboard() {
     const loadMembers = async () => {
       try {
         const response = await coachRequest(session, updateSession, { method: 'get', url: '/api/coach/members' })
-        const rows = response.data.members || []
+        const rows = [...(response.data.members || [])].sort((a, b) => {
+          const branchCompare = String(a.branch_id || '').localeCompare(
+            String(b.branch_id || ''),
+            undefined,
+            { numeric: true, sensitivity: 'base' }
+          )
+
+          if (branchCompare !== 0) return branchCompare
+
+          return String(a.used_id || '').localeCompare(
+            String(b.used_id || ''),
+            undefined,
+            { numeric: true, sensitivity: 'base' }
+          )
+        })
         setMembers(rows)
         setSelectedKey((prev) => {
           if (prev && rows.some((m) => `${m.branch_id}::${m.used_id}` === prev)) return prev
