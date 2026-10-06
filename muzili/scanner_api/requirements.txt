@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+firebase-admin>=6.3.0
+google-genai==2.22.0
+python-multipart
+python-dotenv
+Pillow
+websockets==16.0

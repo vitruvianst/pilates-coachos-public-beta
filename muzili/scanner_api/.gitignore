@@ -1,0 +1,4 @@
+firebase_key.json
+.env
+.DS_Store
+__pycache__/

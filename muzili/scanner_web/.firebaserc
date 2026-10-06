@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "coachos-508201"
+  },
+  "targets": {
+    "coachos-508201": {
+      "hosting": {
+        "scanner": [
+          "coachos-scanner-508201"
+        ]
+      }
+    }
+  }
+}
