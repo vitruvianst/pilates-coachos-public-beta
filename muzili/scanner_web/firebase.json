@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "scanner",
+    "target": "muzili-scanner",
     "public": "dist",
     "ignore": [
       "firebase.json",

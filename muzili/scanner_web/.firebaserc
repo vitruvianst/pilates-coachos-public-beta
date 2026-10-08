@@ -7,8 +7,12 @@
       "hosting": {
         "scanner": [
           "coachos-scanner-508201"
+        ],
+        "muzili-scanner": [
+          "coachos-muzili-scanner-508201"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }

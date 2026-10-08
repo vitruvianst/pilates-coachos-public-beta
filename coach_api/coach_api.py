@@ -34,7 +34,7 @@ load_dotenv()
 # =============================================================================
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 FIREBASE_PROJECT_ID = os.environ.get(
     "FIREBASE_PROJECT_ID",
     "",
