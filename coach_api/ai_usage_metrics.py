@@ -22,22 +22,14 @@ PRICING_SOURCE_URL = "https://cloud.google.com/gemini-enterprise-agent-platform/
 # Store the applied rate snapshot on every record so historical estimates remain auditable
 # after Google changes list prices.
 _PRIORITY_GLOBAL_PRICING = {
-    "gemini-3.6-flash": [
+    "gemini-3.5-flash": [
         {
             "effective_from": "2026-01-01",
-            "effective_to": "2026-12-31",
-            "pricing_version": "vertex_gemini_3_6_flash_priority_global_through_2026-12-31",
-            "input_usd_per_1m": 1.35,
-            "cached_input_usd_per_1m": 0.135,
-            "output_usd_per_1m": 6.75,
-        },
-        {
-            "effective_from": "2027-01-01",
             "effective_to": None,
-            "pricing_version": "vertex_gemini_3_6_flash_priority_global_from_2027-01-01",
+            "pricing_version": "vertex_gemini_3_5_flash_priority_global",
             "input_usd_per_1m": 2.70,
             "cached_input_usd_per_1m": 0.27,
-            "output_usd_per_1m": 13.50,
+            "output_usd_per_1m": 16.20,
         },
     ],
 }
