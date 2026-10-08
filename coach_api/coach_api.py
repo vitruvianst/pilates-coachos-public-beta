@@ -22,6 +22,7 @@ from google.genai import types
 from assessment_specs import ASSESSMENT_SPECS
 from gait_norms import build_gait_references
 from ai_usage_metrics import build_metric_record, new_request_id, save_metric_async
+from ai_guard import reserve_ai_call, record_ai_cost, public_status as ai_guard_public_status, log_settings as log_ai_guard_settings
 
 
 load_dotenv()
@@ -193,6 +194,18 @@ def _generate_content_with_retry(
     logical_started = time.perf_counter()
 
     for attempt in range(1, total_attempts + 1):
+        # Reserve quota immediately before every provider attempt. Retries are
+        # counted too, preventing retry storms from bypassing the guard.
+        db = getattr(app.state, "db", None)
+        reserve_ai_call(
+            db,
+            service="coach_api",
+            operation=operation,
+            context=metric_context,
+            request_id=request_id,
+            attempt=attempt,
+        )
+
         attempt_started = time.perf_counter()
         try:
             response = client.models.generate_content(
@@ -226,6 +239,13 @@ def _generate_content_with_retry(
                     attempt_count=attempt,
                     success=True,
                     context=metric_context,
+                )
+                record_ai_cost(
+                    db,
+                    estimated_cost_usd=(record.get("cost") or {}).get("estimated_cost_usd"),
+                    context=metric_context,
+                    service="coach_api",
+                    operation=operation,
                 )
                 save_metric_async(db, record)
 
@@ -333,6 +353,7 @@ def startup_event():
         GOOGLE_CLOUD_LOCATION,
         GEMINI_MODEL,
     )
+    log_ai_guard_settings()
 
 
 # =============================================================================
@@ -2007,6 +2028,17 @@ def _generate_communication(
             }
         )
         return result
+    except HTTPException as exc:
+        # AI disabled / rate limited / guard unavailable: keep CoachOS usable by
+        # returning the deterministic fallback instead of failing the whole page.
+        logger.warning(
+            "Communication AI blocked; fallback used: status=%s detail=%s",
+            exc.status_code,
+            exc.detail,
+        )
+        fallback = _fallback_communication(safe_profile, style, interaction)
+        fallback["warning"] = str(exc.detail)
+        return fallback
     except Exception as exc:
         logger.exception("Communication generation failed: %s", exc)
         fallback = _fallback_communication(safe_profile, style, interaction)
@@ -2795,6 +2827,7 @@ async def health():
         "location": GOOGLE_CLOUD_LOCATION,
         "model": GEMINI_MODEL,
         "traffic_mode": "priority_paygo",
+        "ai_control": ai_guard_public_status(),
     }
 
 
