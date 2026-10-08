@@ -21,6 +21,7 @@ from pydantic import BaseModel, Field, create_model
 from typing import Literal, Any
 
 from ai_usage_metrics import build_metric_record, new_request_id, save_metric_async
+from ai_guard import reserve_ai_call, record_ai_cost, public_status as ai_guard_public_status, log_settings as log_ai_guard_settings
 
 
 load_dotenv()
@@ -31,6 +32,34 @@ GOOGLE_CLOUD_PROJECT = os.environ.get("GOOGLE_CLOUD_PROJECT", FIREBASE_PROJECT_I
 GOOGLE_CLOUD_LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION", "global").strip() or "global"
 FIREBASE_KEY_PATH = os.environ.get("FIREBASE_KEY_PATH", "firebase_key.json").strip()
 TAIPEI_TZ = timezone(timedelta(hours=8))
+
+# Public-beta upload safety limits. Muzili follows the same protection policy as
+# the CoachOS scanner. Each Muzili image is treated like one body-composition
+# image; the two images still count as ONE Gemini operation per provider attempt.
+AI_MAX_INBODY_BYTES = int(os.environ.get("AI_MAX_INBODY_BYTES", str(12 * 1024 * 1024)))
+AI_MAX_QUESTIONNAIRE_IMAGE_BYTES = int(os.environ.get("AI_MAX_QUESTIONNAIRE_IMAGE_BYTES", str(12 * 1024 * 1024)))
+AI_MAX_QUESTIONNAIRE_TOTAL_BYTES = int(os.environ.get("AI_MAX_QUESTIONNAIRE_TOTAL_BYTES", str(40 * 1024 * 1024)))
+AI_MAX_IMAGE_PIXELS = int(os.environ.get("AI_MAX_IMAGE_PIXELS", str(30_000_000)))
+
+
+def _enforce_upload_bytes(data: bytes, limit: int, label: str) -> None:
+    if not data:
+        raise HTTPException(status_code=422, detail=f"{label}沒有可讀取的檔案內容")
+    if limit > 0 and len(data) > limit:
+        raise HTTPException(
+            status_code=413,
+            detail=f"{label}檔案過大；上限為 {limit / 1024 / 1024:.0f} MB",
+        )
+
+
+def _enforce_image_pixels(image: Image.Image, label: str) -> None:
+    width, height = image.size
+    pixels = int(width or 0) * int(height or 0)
+    if AI_MAX_IMAGE_PIXELS > 0 and pixels > AI_MAX_IMAGE_PIXELS:
+        raise HTTPException(
+            status_code=413,
+            detail=f"{label}解析度過高；請縮小圖片後再上傳",
+        )
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - [%(levelname)s] - %(message)s")
 logger = logging.getLogger(__name__)
@@ -165,6 +194,18 @@ def _generate_content_with_retry(
     logical_started = time.perf_counter()
 
     for attempt in range(1, total_attempts + 1):
+        # Reserve quota immediately before every provider attempt. Retries are
+        # counted too, preventing retry storms from bypassing the guard.
+        db = getattr(app.state, "db", None)
+        reserve_ai_call(
+            db,
+            service="scanner_api",
+            operation=operation,
+            context=metric_context,
+            request_id=request_id,
+            attempt=attempt,
+        )
+
         attempt_started = time.perf_counter()
         try:
             response = client.models.generate_content(
@@ -198,6 +239,13 @@ def _generate_content_with_retry(
                     attempt_count=attempt,
                     success=True,
                     context=metric_context,
+                )
+                record_ai_cost(
+                    db,
+                    estimated_cost_usd=(record.get("cost") or {}).get("estimated_cost_usd"),
+                    context=metric_context,
+                    service="scanner_api",
+                    operation=operation,
                 )
                 save_metric_async(db, record)
 
@@ -281,6 +329,7 @@ def startup_event():
         "🚀 Firebase + Vertex AI 已就緒 project=%s location=%s model=%s",
         project_id, GOOGLE_CLOUD_LOCATION, GEMINI_MODEL
     )
+    log_ai_guard_settings()
 
 
 # -----------------------------------------------------------------------------
@@ -294,6 +343,7 @@ def health_check():
         "project": getattr(app.state, "google_cloud_project", GOOGLE_CLOUD_PROJECT or FIREBASE_PROJECT_ID),
         "location": GOOGLE_CLOUD_LOCATION,
         "model": GEMINI_MODEL,
+        "ai_control": ai_guard_public_status(),
     }
 
 
@@ -596,6 +646,9 @@ def extract_health_data(image: Image.Image, metric_context: dict[str, Any] | Non
             response_mime_type="application/json",
             response_schema=BodyCompositionExtraction,
             temperature=0.0,
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
         ),
         operation="inbody_recognition",
         metric_context={
@@ -721,6 +774,9 @@ def extract_muzili_health_data(
             response_mime_type="application/json",
             response_schema=BodyCompositionExtraction,
             temperature=0.0,
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
         ),
         # 沿用既有 SBIR operation 名稱，避免破壞目前三類 AIUsageMetrics 統計。
         operation="inbody_recognition",
@@ -1781,6 +1837,9 @@ def extract_questionnaire_from_images(
             # 重要：只要求 Gemini 回傳小型「題號 + 勾選文字」schema。
             # 39 + 153 個 Firebase boolean 改由 Python deterministic mapping。
             response_schema=QuestionnaireCompactExtraction,
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
         ),
         operation="questionnaire_recognition",
         metric_context={
@@ -3295,14 +3354,23 @@ async def analyze_muzili_body_composition(
         body_bytes = await body_data_file.read()
         segmental_bytes = await segmental_muscle_file.read()
 
-        if not body_bytes:
-            raise HTTPException(status_code=422, detail="缺少 Muzili 身體數據圖片")
-        if not segmental_bytes:
-            raise HTTPException(status_code=422, detail="缺少 Muzili 節段肌肉分析圖片")
+        _enforce_upload_bytes(
+            body_bytes,
+            AI_MAX_INBODY_BYTES,
+            "Muzili 身體數據圖片",
+        )
+        _enforce_upload_bytes(
+            segmental_bytes,
+            AI_MAX_INBODY_BYTES,
+            "Muzili 節段肌肉分析圖片",
+        )
 
         try:
             body_image = Image.open(io.BytesIO(body_bytes))
+            _enforce_image_pixels(body_image, "Muzili 身體數據圖片")
             body_image = preprocess_image(body_image, max_size=(1800, 1800))
+        except HTTPException:
+            raise
         except Exception as exc:
             raise HTTPException(
                 status_code=422,
@@ -3311,7 +3379,10 @@ async def analyze_muzili_body_composition(
 
         try:
             segmental_image = Image.open(io.BytesIO(segmental_bytes))
+            _enforce_image_pixels(segmental_image, "Muzili 節段肌肉分析圖片")
             segmental_image = preprocess_image(segmental_image, max_size=(1800, 1800))
+        except HTTPException:
+            raise
         except Exception as exc:
             raise HTTPException(
                 status_code=422,
@@ -3451,7 +3522,9 @@ async def analyze_body_composition(
 
     try:
         image_bytes = await file.read()
+        _enforce_upload_bytes(image_bytes, AI_MAX_INBODY_BYTES, "InBody / 體組成圖片")
         raw_img = Image.open(io.BytesIO(image_bytes))
+        _enforce_image_pixels(raw_img, "InBody / 體組成圖片")
         processed_img = preprocess_image(raw_img)
 
         # gender 與所有 body-composition measurement 一樣，直接從這張報表 OCR 取得。
@@ -3547,6 +3620,7 @@ async def analyze_questionnaire(
 
     try:
         processed_images: list[Image.Image] = []
+        total_upload_bytes = 0
 
         parsed_page_numbers: list[int] = []
         if page_numbers:
@@ -3569,12 +3643,34 @@ async def analyze_questionnaire(
             image_bytes = await uploaded.read()
             if not image_bytes:
                 continue
+
+            _enforce_upload_bytes(
+                image_bytes,
+                AI_MAX_QUESTIONNAIRE_IMAGE_BYTES,
+                f"問卷圖片 {uploaded.filename or ''}".strip(),
+            )
+            total_upload_bytes += len(image_bytes)
+            if (
+                AI_MAX_QUESTIONNAIRE_TOTAL_BYTES > 0
+                and total_upload_bytes > AI_MAX_QUESTIONNAIRE_TOTAL_BYTES
+            ):
+                raise HTTPException(
+                    status_code=413,
+                    detail=(
+                        "問卷單次上傳總容量過大；"
+                        f"上限為 {AI_MAX_QUESTIONNAIRE_TOTAL_BYTES / 1024 / 1024:.0f} MB"
+                    ),
+                )
+
             try:
                 raw_img = Image.open(io.BytesIO(image_bytes))
+                _enforce_image_pixels(raw_img, f"問卷圖片 {uploaded.filename or ''}".strip())
                 # 問卷整頁文字比 BIA 報表更密，保留較高解析度避免小字被縮掉。
                 processed_images.append(
                     preprocess_image(raw_img, max_size=(1800, 1800))
                 )
+            except HTTPException:
+                raise
             except Exception:
                 raise HTTPException(
                     status_code=422,
