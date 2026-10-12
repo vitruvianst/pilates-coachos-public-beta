@@ -2289,9 +2289,27 @@ def _comparison_page(records: list[dict], spec_key: str) -> dict:
         values = []
         abnormal_values = []
         for row in display_rows:
-            value = _to_float(_deep_get(row, f"{spec['section_path']}.{metric['key']}"))
+            value = _to_float(
+                _deep_get(
+                    row,
+                    f"{spec['section_path']}.{metric['key']}"
+                )
+            )
+
+            # Bird Dog W-1：
+            # Firestore 保留原始角度 x，
+            # CoachOS 顯示與判定使用 360 - x。
+            if (
+                spec_key == "bird_dog"
+                and metric["key"] == "w1_neck_angle"
+                and value is not None
+            ):
+                value = 360.0 - value
+
             values.append(value)
-            abnormal_values.append(_is_abnormal_by_rule(value, metric.get("rule")))
+            abnormal_values.append(
+                _is_abnormal_by_rule(value, metric.get("rule"))
+            )
         metrics.append({**metric, "values": values, "abnormal_values": abnormal_values})
 
     return {
