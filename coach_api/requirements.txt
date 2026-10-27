@@ -6,3 +6,4 @@ python-dotenv
 pydantic
 websockets==16.0
 scipy
+certifi>=2026.10.19
